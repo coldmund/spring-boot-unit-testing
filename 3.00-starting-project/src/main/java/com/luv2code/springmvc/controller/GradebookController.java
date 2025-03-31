@@ -12,7 +12,6 @@ public class GradebookController {
 	@Autowired
 	private Gradebook gradebook;
 
-
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String getStudents(Model m) {
 		return "index";
@@ -22,6 +21,5 @@ public class GradebookController {
 	@GetMapping("/studentInformation/{id}")
 		public String studentInformation(@PathVariable int id, Model m) {
 		return "studentInformation";
-		}
-
+	}
 }
