@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.luv2code.springmvc.models.CollegeStudent;
 import com.luv2code.springmvc.models.Grade;
-import com.luv2code.springmvc.models.Gradebook;
 import com.luv2code.springmvc.models.GradebookCollegeStudent;
 import com.luv2code.springmvc.models.HistoryGrade;
 import com.luv2code.springmvc.models.MathGrade;
